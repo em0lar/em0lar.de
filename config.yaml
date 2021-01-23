@@ -1,0 +1,37 @@
+baseURL: "https://em0lar.de/"
+languageCode: "en-us"
+title: "em0lar.de"
+theme: "PaperMod"
+
+params:
+  theme: auto
+  homeInfoParams:
+    Title: Hey there!
+    Content: >
+      I'm em0lar, I'm queer. You may also know me as Leo. You can find most of my projects on [Gitea](git.em0lar.de).
+
+
+      I'm nonbinary. My English pronouns are they/them. In general I prefer gender neutral pronouns, but if your language doesn't support them you may use both binary pronouns.
+
+
+      I do a lot of things with train data, such as [FahrplanDatenGarten](https://github.com/FahrplanDatenGarten/FahrplanDatenGarten) and [pyhafas](https://github.com/FahrplanDatenGarten/pyhafas).
+
+
+      Maybe someday I will write blog posts here.
+
+  socialIcons: # optional
+    - name: "gitea"
+      url: "https://git.em0lar.de/em0lar"
+    - name: "github"
+      url: "https://github.com/em0lar"
+    - name: "mastodon"
+      url: "https://chaos.social/@em0lar"
+    - name: "twitter"
+      url: "https://twitter.com/em0lar"
+
+menu:
+  main:
+    - identifier: Contact
+      name: contact
+      url: /contact/
+      weight: 10
