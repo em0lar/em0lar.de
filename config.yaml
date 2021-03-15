@@ -1,6 +1,6 @@
-baseURL: "https://em0lar.de/"
+baseURL: "https://em0lar.dev/"
 languageCode: "en-us"
-title: "em0lar.de"
+title: "em0lar.dev"
 theme: "PaperMod"
 
 params:
